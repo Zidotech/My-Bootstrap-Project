@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .logo h2{
+    color: blue;
+}
+.top .logo_location{
+    font-size: 1.1rem;
+}
+.top .logo_location span{
+    color: blue;
+}
+.top .logo{
+    line-height: .2rem;
+}
+nav{
+    background-color: rgb(107, 202, 13);
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: .8em;
+}
+.sec1{
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+.content{
+    display: flex;
+}
+.sec2 .content .text_wrap{
+    color: white;
+    text-align: center;
+    height: 30vh;
+}
+.content .text{
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+}
+.content .text button{
+    border: 2px solid white;
+}
+.content .text button a{
+    text-decoration: none;
+    color: white;
+    padding: 1.5em;
+}
+.sec2 h3{
+    color: rgb(15, 81, 235);
+}
+.why{
+    background-color: rgb(8, 95, 235);
+    color: white;
+}
+.cont .txt{
+    padding: .6em;
+}
+.cont i{
+    color: white;
+    position: relative;
+    left: -1em;
+    bottom: -1.7em;
+    font-size: 2rem;
+    border: 1px solid white;
+    padding: .2em;
+}
+.cont .jam{
+    margin-left: 1.5em;
+}
+footer .number{
+    background-color: rgb(107, 202, 13);
+    color: white;
+}
+footer .number span{
+    font-weight: bolder;
+}
+footer .footing{
+    display: flex;
+    justify-content: space-between;
+}
+.foot{
+    background-color: rgb(8, 95, 235) ;
+    color: white;
+    padding: .5em;
+}
+.foot i{
+    border: 1px solid white;
+    padding: .3em;
+    margin: .1em;
+}

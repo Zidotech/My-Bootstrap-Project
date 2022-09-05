@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgb(110, 16, 16), rgba(196, 7, 7, 0.867));
+    font-family: sans-serif;
+    color: white;
+}
+
+.container{
+    width: 93%;
+    /* max-width: 100%; */
+    margin: 0 auto;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+    flex-wrap: wrap;
+}
+
+.heading .logo{
+color: white;
+}
+
+.heading nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+.heading nav li a{
+    color: white;
+    text-decoration: none;
+    padding: .6em;
+}
+.heading nav ul button {
+    background-color: rgba(244, 207, 76, 0.908);
+    border-radius: .2em;
+    border: none;
+    padding: .4em;
+    width: 6.5em;
+    cursor: pointer;
+}
+
+.heading nav ul button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.section1{
+    display: flex;
+  justify-content: space-between;
+
+    flex-wrap: wrap;
+    /* border: 3px solid green; */
+    width: 100%;
+
+    margin-top: 1.5em;
+}
+.section1 .img{
+    /* border: 3px solid red; */
+     text-align: center;
+     width: 60%;
+}
+.section1 .img img{
+    width:70%;
+
+}
+.section1 .text{
+    /* width: 40%; */
+    /* border: 3px solid green; */
+    color: rgba(255, 255, 255, 0.842);
+    padding-bottom: .5em;
+}
+
+.section1 .text p{
+    padding: .6em 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section1 .text button{
+    margin-top: 1.1em;
+   width: 27%;
+   height: 7vh;
+    background-color: red;
+    border: none;
+    border-radius: .2em;
+}
+.section1 .text button span{
+    background-color: yellow;
+   font-size: 2rem;
+}
+.section1 .text button a{
+    color: white;
+    text-decoration: none;
+}
+
+.section2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.section2 h2{
+    text-align: center;
+    padding-bottom: .1em;
+    font-size: 2rem;
+}
+
+.section2 table{
+    text-align: center;
+    margin: 0 auto;
+}
+.section2 table td{
+    padding: .7em;
+}
+
+.section2 table tr:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+.section3 h2{
+    text-align: center;
+}
+
+
+.section3 .sec{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+
+    justify-content: space-between;
+}
+
+/* .section3 .sec .cate{
+    background-image: url(../img/pasta_1.png);
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+} */
+
+.section4{
+    margin-top: 5em;
+}
+.section4 h2{
+    text-align: center;
+    padding-bottom: 1.4em;
+}
+
+.section4 .box-container{
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2.3rem, .8fr));
+    gap:1.5rem;
+}
+
+.section4 .box-container .box{
+     /* text-align: center;
+    */
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 100%;
+    background-color: rgb(206, 35, 20);
+}
+
+.section4 .box-container .box img{
+     /* height: 20rem; */
+     width: 80%;
+     position: relative;
+     left: 20px;
+
+}
+
+.section4 .box-container .box i{
+    color: yellow;
+    text-align: left;
+}
+
+.section5{
+      display: flex;
+  justify-content: space-between;
+
+    flex-wrap: wrap;
+    /* border: 3px solid green; */
+    width: 100%;
+
+    margin-top: 1.5em;
+}
+.section5 .img{
+     /* border: 3px solid red; */
+     text-align: center;
+     width: 50%;
+     max-width: 60%;
+}
+.section5 .img img{
+  width:70%;
+}
+
+.section5 .text{
+    width: 50%;
+    /* border: 3px solid green; */
+    color: rgba(255, 255, 255, 0.842);
+    padding-bottom: .5em;
+}
+.section5 .text button{
+      margin-top: 1.1em;
+   width: 27%;
+   height: 7vh;
+    background-color: red;
+    border: none;
+    border-radius: .2em;
+}
+
+.section5 .text button a{
+     color: white;
+    text-decoration: none;
+}
+.section5 .text p{
+      padding: .6em 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section6{
+    width: 60%;
+    position: relative;
+   left: 30%;
+}
+.section6 fieldset{
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: .2rem;
+    padding: 1em;
+    width: 70%;
+}
+.section6 fieldset p{
+    color:tomato;
+}
+.section6 fieldset span{
+    color: rgb(218, 218, 12) ;
+}
+
+.footing{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3em;
+}
+
+.footing nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+.footing nav li a{
+    color: white;
+    text-decoration: none;
+    padding: .6em;
+}
